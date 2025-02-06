@@ -1,0 +1,108 @@
+.rightSideHome {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    width: 100%;
+}
+
+.topProfileRight {
+    width: 72%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgDivRightSide {
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+}
+
+.imageRightSideProfile {
+    height: 45px;
+    width: 45px;
+    border-radius: 100%;
+}
+
+.UserNameBlock {
+    display: flex;
+    flex-direction: column;
+}
+
+.UserNameRightSide {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.UserFullName {
+    color: #999999;
+    font-size: 14px;
+    font-weight: 450;
+}
+
+.switchBtn {
+    color: #0095F6;
+    font-size: 13px;
+    font-weight: 550;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.switchBtn:hover {
+    text-decoration: underline;
+}
+
+.unfollowBtn {
+    color: red; /* Unfollow button turns red */
+}
+
+.leftRightProfile {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.bottomRightSide {
+    display: flex;
+    flex-direction: column;
+    width: 72%;
+}
+
+.suggestedBlock {
+    font-size: 13px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    color: #999999;
+    margin-bottom: 10px;
+}
+
+.seeAllBtn {
+    cursor: pointer;
+    color: #0095F6;
+    font-weight: 550;
+}
+
+.seeAllBtn:hover {
+    text-decoration: underline;
+}
+
+.followBlockRightSide {
+    display: flex;
+    flex-direction: column;
+    padding-top: 18px;
+}
+
+.topProfileRightBottomProfile {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: 5px; */
+}
+
+.suggetionForyou {
+    font-size: 12px;
+    color: #999999;
+}

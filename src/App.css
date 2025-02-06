@@ -1,0 +1,50 @@
+.App {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+  /* border: 1px solid; */
+  display: flex;
+}
+
+.leftside{
+  flex: 0.147;
+  padding: 25px 20px;
+  
+}
+
+.middleside{
+  flex: 0.553;
+  border-left: 1px solid #999999;
+}
+
+.rightside{
+  flex: 0.3;
+  /* border: 1px solid; */
+}
+
+@media screen and (min-width:920px) and (max-width:1140px) {
+  .rightside{
+    display: none;
+  }
+  .leftside{
+    flex: 0.2;
+  }
+
+  .middleside{
+    flex: 0.8;
+  }
+}
+
+ 
+@media screen and (min-width:320px) and (max-width:920px) {
+  .rightside{
+    display: none;
+  }
+  .leftside{
+    display: none;
+  }
+
+  .middleside{
+    flex: 1;
+  }
+}

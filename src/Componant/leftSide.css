@@ -1,0 +1,36 @@
+
+.leftSide{
+    position: fixed;
+}
+.logoPart{
+    width: 110px;
+    height: 30px;
+    
+}
+.logoimg{
+    width: 100%;
+    cursor: pointer;
+    
+}
+.navLinkPart{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.navLink{
+    display: flex ;
+    border-radius: 5px;
+    height: 40px;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    &:hover{
+        background-color: #ededed;
+    }
+}
+.navName{
+    font-weight: 400;
+}
+.belowPart{
+    margin-top: 20px;
+}
