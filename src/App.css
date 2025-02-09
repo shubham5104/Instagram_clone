@@ -8,17 +8,20 @@
 
 .leftside{
   flex: 0.147;
+
   padding: 25px 20px;
   
 }
 
 .middleside{
+
   flex: 0.553;
   border-left: 1px solid #999999;
 }
 
 .rightside{
   flex: 0.3;
+ 
   /* border: 1px solid; */
 }
 
